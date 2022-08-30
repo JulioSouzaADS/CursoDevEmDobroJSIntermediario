@@ -20,11 +20,12 @@ function MarcarRadio (genero){
     let radioMasculino =document.getElementById('genero-masculino');
     console.log(genero)
     let radioFeminino =document.getElementById('genero-feminino');
+    console.log(genero)
 
     if (genero === 'M') {
         radioMasculino.checked= true;
     }
-    else {
+    else if (genero === 'F'){
         radioFeminino.checked =true
     }
 }

@@ -6,9 +6,10 @@ function adicionarComentario () {
    
     let novosComentarios = document.getElementById('novos-comentarios');
  
-    novosComentarios.innerHTML += '<p> Novo Comentario: ${textoDigitado} </p>'
+    novosComentarios.innerHTML += `<p> Novo Comentario: ${textoDigitado} </p> ` 
     
     //    novosComentarios.innerHTML = ' qaqa'
   
 }
+
 
