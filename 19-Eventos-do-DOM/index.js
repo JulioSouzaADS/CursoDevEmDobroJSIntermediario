@@ -9,6 +9,7 @@
 //     alert ('mudou o select')
 // })
 
+// console.log(selectDeEstado)
 
 
 
