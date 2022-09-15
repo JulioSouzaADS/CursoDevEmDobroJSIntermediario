@@ -8,6 +8,7 @@ body {
 
 html {
     background-color: #E5E5E5
+   
 }
 
 main {
@@ -15,6 +16,7 @@ main {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    color: rgba(172, 4, 238, 0.3);
 }
 
 .acordeon {
