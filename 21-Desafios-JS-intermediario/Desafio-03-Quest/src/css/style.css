@@ -72,12 +72,8 @@ body {
     
 }
 
-.formulario .form .name.erro,
-.formulario .form .email.erro,
-.formulario .form .telefone.erro,
-.formulario .form .txtArea.erro{
-    border: 3px solid red;
-   
+.formulario .form p ~ .erro {
+    color : red;
 }
 
 /* .formulario .form .name.valido,.email.valido ,
