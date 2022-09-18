@@ -25,29 +25,26 @@ function validaFormulario () {
     let errorEmail =document.querySelector ('#ErrorEmail')
     let errorTel =document.querySelector ('#ErrorTel')
     let errorMsg =document.querySelector ('#ErrorMsg')
-        if (dadosUsuario.nome === '') {
-        alert ('atenção o campo nome é obrigatorio')
-        dadosRecebidosNome.style.borderColor = 'red';
-        errorNome.style.color = 'red'
+            if (dadosUsuario.nome === '') {
+            console.log ('atenção o campo nome é obrigatorio')
+            dadosRecebidosNome.style.borderColor = 'red';
+            errorNome.style.color = 'red'
 
-        } 
+            } 
             else if  (dadosUsuario.email === '' ) {
-                alert  ('atenção o campo Email é obrigatorio')
-                // dadosRecebidosEmail.classList.add('.erro')
+               console.log ('atenção o campo Email é obrigatorio')
                 dadosRecebidosEmail.style.borderColor = 'red';
-                errorEmail.style.color = 'red'
-    
+                errorEmail.style.color = 'red';
+                
             } else if (dadosUsuario.telefone === '' ) {
-                alert  ('atenção o campo telefone é obrigatorio')
-                // dadosRecebidosTelefone.classList.add('.erro')
+                console.log ('atenção o campo telefone é obrigatorio')
                 dadosRecebidosTelefone.style.borderColor = 'red';
-                errorTel.style.color = 'red'
-    
+                errorTel.style.color = 'red';
+                
             } else if (dadosUsuario.mensagem === '' ) {
-                    alert ('atenção o campo Mensagem é obrigatorio')
-                    // dadosRecebidosMensagem.classList.add('.erro')
+                console.log ('atenção o campo Mensagem é obrigatorio')
                     dadosRecebidosMensagem.style.borderColor = 'red';
-                    errorMsg.style.color = 'red'
+                    errorMsg.style.color = 'red';
                     formularioOk.style.BackgroundColor = 'red' ;
             } else {
                     dadosRecebidosNome.style.borderColor = '#3CCC87';

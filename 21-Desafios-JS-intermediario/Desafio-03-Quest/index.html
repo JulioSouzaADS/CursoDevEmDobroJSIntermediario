@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
     <title>Desafio DevQuest Formulario De Validação</title>
 </head>
 
@@ -24,13 +27,13 @@
             </div>
 
             <form action="" class="form" id="form">
-                <input type="text" placeholder="Nome Completo *" id="name" class="name">
+                <input type="text" placeholder="Nome Completo *" id="name" class="name" value="">
                 <p class="ErrorNome" id="ErrorNome">*Campos obrigatorios</p>
-                <input type="email" placeholder="E-mail *" id="email"  class="email">
+                <input type="email" placeholder="E-mail *" id="email"  class="email" value="">
                 <p class="ErrorEmail" id="ErrorEmail">*Campos obrigatorios</p>
-                <input type="number" placeholder="Telefone *" id="telefone" class=" telefone">
+                <input type="number" placeholder="Telefone *" id="telefone" class=" telefone" value="">
                 <p class="ErrorTel" id="ErrorTel">*Campos obrigatorios</p>
-                <input type="text" placeholder="Mensagem *" id="mensagem" class="txtArea">
+                <input type="text" placeholder="Mensagem *" id="mensagem" class="txtArea" value="">
                 <p class="ErrorMsg" id="ErrorMsg">*Campos obrigatorios</p>
                 <input type="submit" value="Enviar" id="enviar" class="enviar"></input>
             </form>
