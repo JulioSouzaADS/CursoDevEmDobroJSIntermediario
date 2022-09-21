@@ -1,0 +1,45 @@
+body {
+   background-color: #E5E5E5;   
+   font-family: 'roboto',sans-serif;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadro {
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+
+}
+
+.quadro-2 {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(255, 0, 0, 0.842);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.button {
+    width: 250px;
+    height: 30px;
+    background-color: rgba(137, 43, 226, 0.37);
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+}
