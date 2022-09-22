@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <title>Desafio DevQuest Formulario De Validação</title>
+</head>
+
+<body>
+    <main class="main">
+        <!-- <h1> Desafio DevQuest Formulario De Validação </h1> -->
+
+        <div class="formulario" id="formulario">
+            <div class="texto">
+                <div class="texto-informativo">
+                    <h1 id="h1">FICOU COM DÚVIDA? <br>NOS MANDE UMA MENSAGEM!</h1>
+                    <p>caso tenha ficado com qualquer dúvida basta nos mandar<br> uma mensagem e entraremos em contato
+                        em menos de 24h.</p>
+                </div>
+            </div>
+
+            <form action="" class="form" id="form">
+                <input type="text" placeholder="Nome Completo *" id="name" class="name inputDados" value="">
+                <p class="error" id="ErrorNome">*Campos obrigatorios</p>
+                <input type="email" placeholder="E-mail *" id="email"  class="email inputDados" value="">
+                <p class="error" id="ErrorEmail">*Campos obrigatorios</p>
+                <input type="number" placeholder="Telefone *" id="telefone" class=" telefone inputDados" value="">
+                <p class="error" id="ErrorTel">*Campos obrigatorios</p>
+                <input type="text" placeholder="Mensagem *" id="mensagem" class="txtArea inputDados" value="Parabéns Você esta progredindo">
+                <p class="error" id="ErrorMsg">*Campos obrigatorios</p>
+                <input type="submit" value="Enviar" id="enviar" class="enviar"></input>
+            </form>
+        </div>
+
+        <div id="listarDadosUsuario" onclick="clikar()"> </div>
+    </main>
+</body>
+
+<script src="src/js/index.js"></script>
+
+</html>
