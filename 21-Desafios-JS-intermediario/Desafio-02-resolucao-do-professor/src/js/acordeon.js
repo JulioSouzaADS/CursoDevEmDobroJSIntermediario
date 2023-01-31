@@ -9,7 +9,6 @@ itensPerguntasERespostas.forEach ( function(item){
             itemAtivoAtual.classList.remove("ativo");
         }
       
-
         item.classList.add("ativo");
     })
 })

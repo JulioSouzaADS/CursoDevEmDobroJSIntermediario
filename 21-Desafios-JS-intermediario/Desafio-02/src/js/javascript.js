@@ -29,32 +29,51 @@
 //         // paragrafoEstilizado.classList.add (mostrar = 'red';)
 // }
 
-function perguntasFrequentesUm () {
+// function perguntasFrequentes () {
 
-        let perguntas = document.querySelectorAll ('.pergunta-faq')
-        let seta = document.querySelectorAll('.seta')
-        let mostrarDados = document.querySelector('.opacidade')
+//         let perguntas = document.querySelectorAll ('.pergunta-faq')
+//         let seta = document.querySelectorAll('.seta')
+//         let mostrarDados = document.querySelector('.opacidade')
         
-                console.log (perguntas)
-                console.log(seta)
-                console.log (mostrarDados)
+//                 console.log (perguntas)
+//                 console.log(seta)
+//                 console.log (mostrarDados)
         
           
-                        perguntas[0].addEventListener ("click",function() {
-                                mostrarInformacoes();
-                        });
+//                         perguntas[0].addEventListener ("click",function() {
+//                                 mostrarInformacoes();
+//                         });
 
-                        seta[1].addEventListener ("click",function() {
-                                mostrarInformacoes();
-                        });
+//                         seta[1].addEventListener ("click",function() {
+//                                 mostrarInformacoes();
+//                         });
 
 
-                        function mostrarInformacoes(){
-                                mostrarDados.classList.remove("opacidade")
-                         }
+//                         function mostrarInformacoes(){
+//                                 mostrarDados.classList.remove("opacidade")
+//                          }
 
-}
-
-         perguntasFrequentesUm();
+// }
+//          perguntasFrequentes();
 
   
+function perguntasFrequentes () {
+
+        let perguntas = document.querySelectorAll ('.pergunta-faq')
+        let mostrarDados = document.querySelector('.opacidade')
+        
+                // console.log (perguntas)
+                // console.log(seta)
+                // console.log (mostrarDados)
+
+         perguntas.forEach(function(item,indice,array){
+                        // console.log (indice)
+                        console.log (item)
+                item.addEventListener ("click",function() {
+                mostrarDados.classList.remove("opacidade")
+                });
+
+        }) 
+ 
+}
+         perguntasFrequentes();

@@ -17,18 +17,21 @@ function dadosInformados () {
     // console.table (dadosUsuario)
 }
 
+
+// essa ta funcionando 100%
 function validaFormulario () {
 
-    Object.keys(dadosUsuario).forEach(function(index,indice,array){
-        console.log (dadosUsuario[index])
-        console.log (dadosUsuario[indice])
-   
-        if (dadosUsuario[index] === '' || dadosUsuario[index] === 0) {
+    Object.keys(dadosUsuario).forEach(function(dados,indice,array){
+        console.log (dadosUsuario[dados])
+
+        if (dadosUsuario[dados] === '' || dadosUsuario[dados] === 0) {
             inputDados[indice].style.borderColor = 'red';
             error[indice].style.color = 'red';
         } else {
             inputDados[indice].style.borderColor = '#3CCC87';
             error[indice].style.color = 'white';
         }   
+
     })
 }
+

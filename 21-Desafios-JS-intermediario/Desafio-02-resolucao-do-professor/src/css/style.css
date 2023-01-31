@@ -89,6 +89,7 @@ main {
 .acordeon .itens .item.ativo h2 {
   font-weight: 700;
   font-size: 17px;
+  background-color: red;
 }
 
 
